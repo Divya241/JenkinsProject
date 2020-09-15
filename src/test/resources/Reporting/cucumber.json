@@ -1,0 +1,4945 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 19,
+        "name": "Verifying adactin booking based on number of adults",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-adults;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20720050700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1546703500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4927811200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16065286200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 96
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2544312000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 840617600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1604109500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13962659400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1499870500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8534143900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verifying adactin booking based on number of adults",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-adults;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1397577000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1286398300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2620137000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15754821500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"2 - Two\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 96
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1495570100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 549467100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1362115300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12807777100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 548991000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8492179400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verifying adactin booking based on number of adults",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-adults;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1269506900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1710868700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1858598800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15213980000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"3 - Three\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 98
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1480901400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1147132400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1371171500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12056980000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 604861800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8517885800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Verifying adactin booking based on number of adults",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-adults;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2348741800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1411074100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1588885400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16727543400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"4 - Four\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 97
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2136038700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 898233200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1693792200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11466727000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 809913700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8515040500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying adactin functionalities",
+    "description": "",
+    "id": "verifying-adactin-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Adults.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Verifying adactin booking based on number of children",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-children;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1772883100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1772773000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2797284000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15413496800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 96
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2042970600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1112867400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1302000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11347409100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 608024000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8507679200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verifying adactin booking based on number of children",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-children;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1202216400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1761903500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2114971900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16510868700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 96
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1461613500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1008364700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2030761000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11437403200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 618567000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8811759900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verifying adactin booking based on number of children",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-children;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1203362200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1539633400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1752517000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15448101100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 96
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1465108800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 608137300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1572458800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13436346200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 642366400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8521519300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verifying adactin booking based on number of children",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-children;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1184442000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1663554300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1485185600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14349083800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 96
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1436881100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 585240400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1255561800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10824936200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 556858100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8487352600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Verifying adactin booking based on number of children",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-children;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1111695800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1452025100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1439910800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13216064200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"4 - Four\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 96
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1289921600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 964823200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1812969100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13833795800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1477077700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8778049900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying adactin functionalities",
+    "description": "",
+    "id": "verifying-adactin-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Children.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 19,
+        "name": "Verifying adactin booking based on number of rooms",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-rooms;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1396181100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1206821200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1611391600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15124354700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"1 - One\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 96
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1229088100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 552259400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1173566800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11278918400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 562988300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8533092800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verifying adactin booking based on number of rooms",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-rooms;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1231678000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1556913200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1504173000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15747642800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 96
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1283088800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 885136900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2518531100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11351610400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 558216700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9401073500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Verifying adactin booking based on number of rooms",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-rooms;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1093681200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1478217600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1397874500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13914875400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"3 - Three\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 98
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1303056100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 546781300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1267050700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12257815400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 528052700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8494551500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Verifying adactin booking based on number of rooms",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-rooms;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1116795400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1343875700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1954895700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14684920900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"4 - Four\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 97
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1231052900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 528855000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1133025800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10365833800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 527891400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8527082600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Verifying adactin booking based on number of rooms",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-rooms;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1025438600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1378017500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1957295500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13360520000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"5 - Five\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"5 - Five\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 97
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1562920600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 697974500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1093970100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11370803400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 575269100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8516754600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Verifying adactin booking based on number of rooms",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-rooms;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1049222700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1264917500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1474254600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15563727700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"6 - Six\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"6 - Six\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 96
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1164110900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1151566600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1696588900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13676372800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 524888700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8562564200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Verifying adactin booking based on number of rooms",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-rooms;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1277071600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1143027000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1351163500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13139911000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"7 - Seven\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"7 - Seven\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 98
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1664655600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 838646900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2324321000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10758822200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 543267000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8497920600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Verifying adactin booking based on number of rooms",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-rooms;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1051403100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1185866600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1391975300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15537827800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"8 - Eight\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"8 - Eight\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 98
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1811471400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2299713800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1967673700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10623017200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 580061500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8516869700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Verifying adactin booking based on number of rooms",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-rooms;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1297416000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1225913000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1389014400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13657444400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"9 - Nine\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"9 - Nine\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 97
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1957189300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 831946800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1042950100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9386902500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 529892500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8453226000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Verifying adactin booking based on number of rooms",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-number-of-rooms;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 989113800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1308911800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1570112500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13743813600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"10 - Ten\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"10 - Ten\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 97
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1141801600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 623055200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2420048600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10174926700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 563877100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8499019600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying adactin functionalities",
+    "description": "",
+    "id": "verifying-adactin-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/NumOfRooms.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Verifying adactin booking based on different room types",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-different-room-types;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1080843500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1579735200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1318703500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14847107700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Deluxe\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 96
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1157126100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 549860700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1069929700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11409887500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 531409200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8769297500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@retest"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verifying adactin booking based on different room types",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-different-room-types;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 970612900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1356480400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1336396000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14571622000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Standard\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"2 - Two\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 98
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1240232000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 574081800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1106990100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9734732900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 577054300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8501200200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@retest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verifying adactin booking based on different room types",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-different-room-types;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1355584100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1541035700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1645561900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17614174100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Super Deluxe\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"3 - Three\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Super Deluxe\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 92
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 104
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1842263600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 856947100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1181013300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11265665600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 559105800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8521933400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@retest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verifying adactin booking based on different room types",
+        "description": "",
+        "id": "verifying-adactin-functionalities;verifying-adactin-booking-based-on-different-room-types;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1059316300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch adactin page in browser",
+            "match": {
+              "location": "AdactinSteps.user_should_launch_adactin_page_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1216937000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the \"divyakrish\" and \"divyakrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"divyakrish\"",
+                  "offset": 39
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1519680500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18835016500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Sunshine\",\"Double\",\"2 - Two\",\"24/08/20\",\"25/08/20\",\"4 - Four\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"24/08/20\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25/08/20\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 97
+                }
+              ],
+              "location": "AdactinSteps.user_should_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2546707000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click search button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 509127600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click select button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_select_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1351120600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10107954300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter \"divya\",\"sri\",\"bangalore\",\"6543217895643245\",\"VISA\",\"May\",\"2021\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divya\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"sri\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"6543217895643245\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "AdactinSteps.user_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 529010400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click booknow button",
+            "match": {
+              "location": "AdactinSteps.user_should_click_booknow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8837420000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get the order id",
+            "match": {
+              "location": "AdactinSteps.user_should_get_the_order_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@retest"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying adactin functionalities",
+    "description": "",
+    "id": "verifying-adactin-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/RoomType.feature",
+    "tags": []
+  }
+]
